@@ -1,0 +1,17 @@
+uuid: 7dbad929-2189-493b-880c-6567481f7a1a
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: c-bSwY89BHDz0AEA0vzFNNxX5cRmp1XZMrGHlqGDF_c
+id: node__blog
+label: 'Content: Blog post'
+tags:
+  description: '[node:summary]'
+  image_src: '[node:field_image:entity:field_media_image:entity:url]'
+  og_description: '[node:summary]'
+  og_image: '[node:field_image:entity:field_media_image:entity:url]'
+  og_image_alt: '[node:field_image:entity:field_media_image:alt]'
+  og_title: '[node:title]'
+  og_type: '[node:content-type]'
+  title: '[node:title]'

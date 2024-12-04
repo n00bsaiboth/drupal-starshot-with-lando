@@ -1,0 +1,37 @@
+uuid: b623b586-7fb9-439a-9ab8-6d2f49b69f2d
+langcode: en
+status: true
+dependencies:
+  module:
+    - scheduler
+    - type_tray
+third_party_settings:
+  type_tray:
+    type_category: _none
+    type_thumbnail: ''
+    type_icon: 'public://type-tray-icons/icon-basic-page.svg'
+    type_description: ''
+    existing_nodes_link_text: ''
+    type_weight: 0
+  scheduler:
+    expand_fieldset: when_required
+    fields_display_mode: vertical_tab
+    publish_enable: true
+    publish_past_date: error
+    publish_past_date_created: false
+    publish_required: false
+    publish_revision: true
+    publish_touch: true
+    show_message_after_update: true
+    unpublish_enable: true
+    unpublish_required: false
+    unpublish_revision: true
+_core:
+  default_config_hash: SAB6BfwuPR4shd2BQyK41XcXWPYhXZFkUN2_IeAWVl0
+name: 'Basic page'
+type: page
+description: "Use <em>basic pages</em> for your static content, such as an 'About us' page."
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: false

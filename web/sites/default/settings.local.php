@@ -11,5 +11,4 @@
  * directory in the public files path. The setting below allows you to set
  * its location.
  */
-$settings['config_sync_directory'] = 'sites/default/files/config_WRzFCl_OkbXKLACVF9wbOoSFiq5IklGub4H7LBnqdF7dfgVepRxySvcu-gtjMa58nkMoxXkiMw/sync';
-
+$settings['config_sync_directory'] = '../config/sync/';
